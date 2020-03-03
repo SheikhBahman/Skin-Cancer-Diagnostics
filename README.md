@@ -17,7 +17,7 @@ Python
 # Data
 300 Images of moles can be downloaded from here. The data contains 150 benign and 150 malignant skin images, separated into two different folders.
 
-# Method Used
+# Methods Used
 - Support vector machine
 - KNeighbors
 - Random Forest
