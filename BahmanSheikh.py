@@ -93,9 +93,9 @@ def fd_histogram(image, mask=None):
     # return the histogram
     return hist.flatten()
 
-benignImages = load_images_from_folder("542/benign/", "benign")
+benignImages = load_images_from_folder("Data/benign/", "benign")
 
-malignantImages = load_images_from_folder("542/malignant/", "malignant")
+malignantImages = load_images_from_folder("Data/malignant/", "malignant")
 
 cv2.imshow('image',benignImages[1])
 #cv2.waitKey(0)
